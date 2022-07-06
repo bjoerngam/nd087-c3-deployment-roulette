@@ -1,0 +1,13 @@
+(base) bjoern@Armstrong:~/Dokumente/SRE/nd087-c3-deployment-roulette$ kubectl get pods
+NAME                           READY   STATUS    RESTARTS   AGE
+blue-8475cbdf46-7s7gq          1/1     Running   0          63m
+blue-8475cbdf46-q6ndv          1/1     Running   0          63m
+blue-8475cbdf46-zds7p          1/1     Running   0          63m
+canary-v1-64598c676f-9l6x9     1/1     Running   0          9m11s
+canary-v1-64598c676f-ghtbx     1/1     Running   0          9m11s
+canary-v1-64598c676f-stv8b     1/1     Running   0          9m11s
+canary-v2-5dc9c56687-826r6     1/1     Running   0          4m18s
+canary-v2-5dc9c56687-cxv5n     1/1     Running   0          4m23s
+canary-v2-5dc9c56687-l7xc6     1/1     Running   0          4m18s
+debug                          1/1     Running   0          8m41s
+hello-world-794458d64d-t7qql   1/1     Running   0          63m
